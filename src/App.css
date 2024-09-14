@@ -1,0 +1,242 @@
+/* Header.css */
+.container {
+  display: flex;
+}
+
+.header-title{
+  padding-top:10px;
+  margin-top:0.5px;
+  width: auto;
+  display: flex;
+}
+
+.header-title h1{
+  font-size: 1em;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1F3E5A; /* Light background color */
+  border-bottom: 1px solid #1F3E5A; /* Light border */
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo-image {
+  max-height: 50px; /* Adjust the height as needed */
+}
+
+.school-name {
+  flex: 2;
+  text-align: right; /* Align text to the right */
+}
+
+.school-name h1,h3 {
+  margin: 0;
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #fffdfd; /* Dark text color */
+}
+
+/* SideBar.css */
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 150px; /* Adjust the width as needed */
+  background-color: #1F3E5A; /* Light background color */
+  border-right: 1px solid #1F3E5A; /* Light border */
+  padding: 20px;
+  height: 80vh;
+}
+
+.profile-section {
+  flex: 1;
+}
+
+.profile-section h1 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.profile-list {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-list li {
+  margin-bottom: 10px;
+}
+
+.profile-list a {
+  text-decoration: none;
+  color: #f6f8fa; /* Link color */
+}
+
+.profile-list a:hover {
+  text-decoration: underline;
+}
+
+
+.logout {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  color: #f3f7fc;
+  margin-top: auto;
+  background-color: #1F3E5A; /* Button color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout button:hover {
+  background-color: #1F3E5A; /* Darker button color on hover */
+}
+
+.s1{
+  justify-content: center;
+  font-size: 16px;
+  background-color: #1F3E5A; /* Button color */
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10rem;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.Notice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+
+}
+.notice-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: left;
+  color :#1F3E5A;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.Footer {
+  text-align: center;
+  color: #3096f0;
+}
+
+/* src/components/SchoolForm.css */
+.school-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.school-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(155, 147, 147, 0.1);
+  width: 500px;
+}
+
+.school-form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #797676;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-buttons button {
+  flex: 1;
+  margin: 0 0.5rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-buttons button:first-child {
+  background-color: #06386e; /* Green for Create */
+}
+
+.form-buttons button:nth-child(2) {
+  background-color: #007bff; /* Blue for Update */
+}
+
+.form-buttons button:last-child {
+  background-color: #dc3545; /* Red for Delete */
+}
+
+.form-buttons button:hover {
+  opacity: 0.9;
+}
